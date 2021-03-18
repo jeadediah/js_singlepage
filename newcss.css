@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+div.container{
+    width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#btnAccounts {
+    background-color: #0384fc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btnAddacc {
+    background-color: #0313fc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btnEditDell{
+    background-color: #fc0303;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.accauntsTable{
+width: 1200px;
+    margin-top: 50px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table th{
+    width: 1200px;
+    border-top: 1px solid gray;
+    border-bottom:  1px solid gray;
+}
+table td{
+   /*border : 1px solid grey;*/
+    background-color: windowframe;
+    /*text-transform: uppercase;*/
+}
+
+.addAcc {
+    width: 100%;
+}
+input{
+    display: block;
+    width: 100%;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+button.addAcc,
+button.saveChanges{
+    width: 100%;
+    background-color: #0384fc;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+form label{
+    float: left;
+    display: block;
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.editDelltable{
+    width: 100%;
+}
+
+.btnUbaci{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+.btnBrisanje{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+.addAccview,.editDelltable,.editAcc {
+    display: none;
+   
+}
